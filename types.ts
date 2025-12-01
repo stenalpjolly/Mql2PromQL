@@ -24,6 +24,15 @@ export interface ExampleItem {
   explanation: string;
 }
 
+export interface BatchItem {
+  id: string;
+  name: string;
+  mql: string;
+  status: 'IDLE' | 'CONVERTING' | 'SUCCESS' | 'ERROR';
+  result?: ConversionResult;
+  error?: string;
+}
+
 export enum LoadingState {
   IDLE = 'IDLE',
   LOADING = 'LOADING',
