@@ -1,0 +1,5 @@
+{
+  "name": "MQL to PromQL Migrator",
+  "description": "An automated tool to convert Google Cloud Monitoring Query Language (MQL) to Prometheus Query Language (PromQL) using Gemini 2.5.",
+  "requestFramePermissions": []
+}
